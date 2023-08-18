@@ -1,0 +1,221 @@
+jshell> a
+a ==> 7
+
+jshell> b
+b ==> 1
+
+jshell> b=2
+b ==> 2
+
+jshell> c
+c ==> 8
+
+jshell> int d= 5
+d ==> 5
+
+jshell> if(a+b >c+d)
+   ...> System.out.println("si a+b es mayor que c+d");
+
+jshell> if(a+b <c+d)
+   ...> System.out.println("a+b es menor que c+d");
+a+b es menor que c+d
+
+
+
+TRIANGULOS
+
+jshell> int angle1 = 45
+angle1 ==> 45
+
+jshell> int angle2 =45
+angle2 ==> 45
+
+jshell> int angle3=90
+angle3 ==> 90
+
+jshell> if(angle1 + angle2 + angle3 == 90)
+   ...> System.out.println("es un triangulo rectangulo");
+
+jshell> if(angle1 + angle2 + angle3 == 180)
+   ...> System.out.println("es un triangulo rectangulo");
+es un triangulo rectangulo
+
+
+
+NÚMERO PAR
+
+jshell> number = 8
+number ==> 8
+
+jshell> if(number % 2 ==0)
+   ...> System.out.println("es un numero par");
+es un numero par
+
+jshell> int i = 5
+i ==> 5
+
+jshell> i >5
+$2 ==> false
+
+jshell> i == 5
+$3 ==> true
+
+jshell> if(i == 5)
+   ...> System.out.println("i Es impar");
+i Es impar
+
+jshell> if(i == 5)
+   ...> System.out.println("i Es impar"); System.out.println("i es primo"9;
+i Es impar
+   ...>
+
+jshell> if(i == 5)
+   ...> System.out.println("i Es impar"); System.out.println("i es primo");
+i Es impar
+i es primo
+
+jshell> i = 6
+i ==> 6
+
+jshell> if(i == 5)
+   ...> System.out.println("i Es impar"); System.out.println("i es primo");
+i es primo
+
+
+
+BOQUES.
+un bloque empieza con llaves, y sirve para agrupar varials declaraciones.
+
+jshell> if (i == 6){
+   ...> System.out.println("i es par");
+   ...>     System.out.println("i es primo");
+   ...> }
+i es par
+i es primo
+
+
+
+BUCLE FOR
+
+for(inicializacion, conddicional, actualiacion)
+	declaracion;
+
+for(i = 1; i <= 10; i++){
+	declaracion
+}
+
+
+jshell> for(i = 1; i <= 10; i++){
+   ...>     System.out.printf("%d * %d = %d", 5, i, 5*i).println();
+   ...> }
+5 * 1 = 5
+5 * 2 = 10
+5 * 3 = 15
+5 * 4 = 20
+5 * 5 = 25
+5 * 6 = 30
+5 * 7 = 35
+5 * 8 = 40
+5 * 9 = 45
+5 * 10 = 50
+
+
+jshell> for(i = 1; i <= 10; i++){
+   ...>     System.out.printf("%d * %d = %d", 7, i, 7*i).println();
+   ...> }
+7 * 1 = 7
+7 * 2 = 14
+7 * 3 = 21
+7 * 4 = 28
+7 * 5 = 35
+7 * 6 = 42
+7 * 7 = 49
+7 * 8 = 56
+7 * 9 = 63
+7 * 10 = 70
+
+
+jshell> for(i=1; i <=10; i++){
+   ...>     System.out.printf("Los numeros son: %d \n", i);
+   ...> }
+Los numeros son: 1
+Los numeros son: 2
+Los numeros son: 3
+Los numeros son: 4
+Los numeros son: 5
+Los numeros son: 6
+Los numeros son: 7
+Los numeros son: 8
+Los numeros son: 9
+Los numeros son: 10
+
+
+jshell> table = 10
+table ==> 10
+
+jshell> for(i = 1; i <= 10; i++)
+   ...> System.out.printf("%d * %d = %d", table, i, table*1).println();
+10 * 1 = 10
+10 * 2 = 10
+10 * 3 = 10
+10 * 4 = 10
+10 * 5 = 10
+10 * 6 = 10
+10 * 7 = 10
+10 * 8 = 10
+10 * 9 = 10
+10 * 10 = 10
+
+
+jshell> for (i =1; i <= 10; i++){
+   ...>     System.out.printf("%d", i).println();
+   ...> }
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+
+jshell> for(i=10; i>=1; i--)
+   ...> {
+   ...>     System.out.printf("%d", i).println();
+   ...> }
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+
+jshell> for(i=10; i>=1; i = i-2)
+   ...> {
+   ...>     System.out.printf("%d", i).println();
+   ...> }
+10
+8
+6
+4
+2
+
+
+jshell> for(i=9; i>=1; i = i-2)
+   ...> {
+   ...>     System.out.printf("%d", i).println();
+   ...> }
+9
+7
+5
+3
+1
+

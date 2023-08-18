@@ -1,0 +1,181 @@
+jshell> int a =2
+a ==> 2
+
+jshell> int b=3
+b ==> 3
+
+jshell> int c=4
+c ==> 4
+
+jshell> System.out.printf("%d+%d+%d", a+b+c).println()
+9+|  Exception java.util.MissingFormatArgumentException: Format specifier '%d'
+|        at Formatter.format (Formatter.java:2780)
+|        at PrintStream.implFormat (PrintStream.java:1367)
+|        at PrintStream.format (PrintStream.java:1346)
+|        at PrintStream.printf (PrintStream.java:1245)
+|        at (#73:1)
+
+jshell> System.out.printf("%d+%d+%d=%d", a, b, c, a+b+c). println()
+2+3+4=9
+
+jshell> b=5
+b ==> 5
+
+jshell> System.out.printf("%d+%d+%d=%d", a, b, c, a+b+c). println()
+2+5+4=11
+
+jshell> c= 8
+c ==> 8
+
+jshell> System.out.printf("%d+%d+%d=%d", a, b, c, a+b+c). println()
+2+5+8=15
+
+
+TIPOS DE VARIABLES
+
+jshell> byte b= 1
+b ==> 1
+
+jshell> short str = 2
+str ==> 2
+
+jshell> int entero = 3
+entero ==> 3
+
+jshell> long archivo = 4
+archivo ==> 4
+
+jshell> //comentario
+
+jshell> //variables de coma flotante
+
+jshell> float tl = 4.0f
+tl ==> 4.0
+
+jshell> double dbl = 4.6
+dbl ==> 4.6
+
+jshell> //caracteres
+
+jshell> chart ch = 'A'
+|  Error:
+|  cannot find symbol
+|    symbol:   class chart
+|  chart ch = 'A';
+|  ^---^
+
+jshell> chart cr='a'
+|  Error:
+|  cannot find symbol
+|    symbol:   class chart
+|  chart cr='a';
+|  ^---^
+
+jshell> chart cr='a';
+|  Error:
+|  cannot find symbol
+|    symbol:   class chart
+|  chart cr='a';
+|  ^---^
+
+jshell> char cr='a'
+cr ==> 'a'
+
+jshell> boolean isNumer=true
+isNumer ==> true
+
+jshell> boolean isNumer=false
+isNumer ==> false
+
+
+jshell> short numberGoals
+numberGoals ==> 0
+
+jshell> short team2
+team2 ==> 0
+
+jshell> numberGolas++
+|  Error:
+|  cannot find symbol
+|    symbol:   variable numberGolas
+|  numberGolas++
+|  ^---------^
+
+jshell> numberGolas
+|  Error:
+|  cannot find symbol
+|    symbol:   variable numberGolas
+|  numberGolas
+|  ^---------^
+
+jshell> numberGoals++
+$100 ==> 0
+
+jshell> numberGoals
+numberGoals ==> 1
+
+jshell> numberGoals++
+$102 ==> 1
+
+jshell> numberGoals
+numberGoals ==> 2
+
+jshell> team1++
+|  Error:
+|  cannot find symbol
+|    symbol:   variable team1
+|  team1++
+|  ^---^
+
+jshell> team2++
+$104 ==> 0
+
+jshell> team2
+team2 ==> 1
+
+jshell> team2++
+$106 ==> 1
+
+jshell> team2
+team2 ==> 2
+
+jshell> team2++
+$108 ==> 2
+
+jshell> team2
+team2 ==> 3
+
+jshell> number
+number        numberGoals   numbers       numbers2
+
+Signatures:
+number:int
+
+<press tab again to see documentation>
+jshell> numberGoals++
+$110 ==> 2
+
+jshell> numberGoals
+numberGoals ==> 3
+
+jshell> long populationOfWorld
+populationOfWorld ==> 0
+
+jshell> double promedio
+promedio ==> 0.0
+
+jshell> char cr='A'
+cr ==> 'A'
+
+jshell> char cr='B'
+cr ==> 'B'
+
+jshell> char cr='C'
+cr ==> 'C'
+
+
+jshell> boolean isEven
+isEven ==> false
+
+jshell> isEven = true
+isEven ==> true

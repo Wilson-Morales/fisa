@@ -1,0 +1,143 @@
+jshell> "1"+2
+$121 ==> "12"
+
+jshell> "2"+(5+3)
+$122 ==> "28"
+
+jshell> "ABC" + "WXY"
+$123 ==> "ABCWXY"
+
+jshell> System.out.println("ABC" + "WXY")
+ABCWXY
+
+jshell> i
+i ==> 6
+
+jshell> System.out.println("el valor de i es: " + i )
+el valor de i es: 6
+
+
+ASIGNACIÓN
+
+es asignar el valor de j al valor de i
+-se usa para copiar el valore de una variable a otra
+
+jshell> j=5
+j ==> 5
+
+jshell> i
+i ==> 6
+
+jshell> i=j
+i ==> 5
+
+jshell> i= j*5
+i ==> 25
+
+jshell> i =i*2
+i ==> 50
+
+jshell> i =i+i
+i ==> 100
+
+INCREMENTAR VALORES 
+
+
+jshell> i = i-1
+i ==> 100
+
+jshell> i = i-1
+i ==> 99
+
+jshell> i = i-1
+i ==> 98
+
+jshell> i = i-1
+i ==> 97
+
+jshell> i = i-1
+i ==> 96
+
+jshell> i = i-1
+i ==> 95
+
+jshell> i = i-1
+i ==> 94
+
+jshell> i = i-1
+i ==> 93
+
+jshell> number
+number ==> 12
+
+jshell> number = number +1
+number ==> 13
+
+jshell> number = number +1
+number ==> 14
+
+jshell> number = number +1
+number ==> 15
+
+jshell> number = number +1
+number ==> 16
+
+jshell> number++
+$152 ==> 16
+
+jshell> number
+number ==> 17
+
+jshell> number++
+$154 ==> 17
+
+jshell> number
+number ==> 18
+
+jshell> number--
+$156 ==> 18
+
+jshell> number
+number ==> 17
+
+jshell> ++number
+$160 ==> 19
+
+jshell> ++number
+$161 ==> 20
+
+jshell> ++number
+$162 ==> 21
+
+jshell> ++number
+$163 ==> 22
+
+jshell> --number
+$164 ==> 21
+
+jshell> --number
+$165 ==> 20
+
+jshell> --number
+$166 ==> 19
+
+
+OPERADORES DE ASGINACION COMPUESTA
+
+jshell> i +=2
+$177 ==> 95
+
+jshell> i += 1
+$178 ==> 96
+
+jshell> i += 4
+$179 ==> 100
+
+jshell> i /= 2
+$180 ==> 50
+
+jshell> i
+i ==> 50
+
+jshell> i %= 2
+$182 ==> 0

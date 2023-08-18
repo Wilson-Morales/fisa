@@ -1,0 +1,43 @@
+CONDICIONALES
+una condicion simempre debuelve un valor boleano
+
+jshell> i=10
+i ==> 10
+
+jshell> i<5
+$201 ==> false
+
+jshell> i>5
+$202 ==> true
+
+jshell> i<=5
+$203 ==> false
+
+jshell> i>=5
+$204 ==> true
+
+
+MÉTODO IF
+
+if(condición) 
+	statements; //declaración
+
+jshell> i=6
+i ==> 6
+
+jshell> if(i<8)
+   ...> System.out.println("i es menor a 8");
+i es menor a 8
+
+
+
+jshell> int number1 = 2
+number1 ==> 2
+
+jshell> int number2 = 5
+number2 ==> 5
+
+jshell> if(number2>number1)
+   ...> System.out.println("number2 es mayor que number1");
+number2 es mayor que number1
+

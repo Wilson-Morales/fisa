@@ -1,0 +1,142 @@
+jshell> System.out.println("Hello World")
+Hello World
+
+jshell> System.out.println("5*3")
+5*3
+jshell> System.out.println(5*3)
+15
+
+jshell> System.out.println(24*60*60)
+86400
+
+jshell> System.out.println("Tabla nuérica del 5: ", )
+
+jshell> System.out.println("5*1=5")
+5*1=5
+
+jshell> System.out.println("5*2=10")
+5*2=10
+
+jshell> System.out.println("mi nombre es: "Wilson Morales")
+|  Error:
+|  ')' or ',' expected
+|  System.out.println("mi nombre es: "Wilson Morales")
+|                                     ^
+
+jshell> System.out.println("mi nombre es:\"Wilson Morales")
+mi nombre es:"Wilson Morales
+
+ System.out.println("mi nombre es:\n "Wilson Morales")
+|                                       ^
+
+
+CARACTERES DE ESCAPE (\)
+\n= salto de linea
+\t= pestaña o espacio grande entre dos palabras
+
+jshell> System.out.println("mi nombre es:\n Wilson Morales")
+mi nombre es:
+ Wilson Morales
+
+jshell> System.out.println("mi nombre es:\nWilson Morales")
+mi nombre es:
+Wilson Morales
+
+jshell> System.out.println("mi nombre es:\Wilson Morales")
+|  Error:
+|  illegal escape character
+|  System.out.println("mi nombre es:\Wilson Morales")
+|                                    ^
+
+jshell> System.out.println("mi nombre es:\nWilson Morales")
+mi nombre es:
+Wilson Morales
+
+
+jshell> System.out.println("mi nombre es:\\ Wilson Morales")
+mi nombre es:\ Wilson Morales
+
+jshell> System.out.println("mi nombre es \\\\ Wilson Morales")
+mi nombre es \\ Wilson Morales
+
+jshell> System.out.println("mi nombre es \t Wilson Morales")
+mi nombre es     Wilson Morales
+
+
+EXPRESIONES / FUNCIONES INCORPORADAS EN JAVA
+
+Math.random = genera un número aleatorio, no espera que se ingrese un número
+no espera ningun parámetro
+
+-genra un valor aleatorio entre 0 y 1
+
+jshell> Math.random()
+$23 ==> 0.6943699802977124
+
+jshell> Math.random()
+$24 ==> 0.48183423621089394
+
+jshell> Math.random()
+$25 ==> 0.5794925513486041
+
+jshell> Math.random()
+$26 ==> 0.3589245013012651
+
+jshell> Math.random()
+$27 ==> 0.3922824550630233
+
+jshell> Math.min(45, 32)
+$28 ==> 32
+
+jshell> Math.min(25, 32)
+$29 ==> 25
+
+jshell> Math.max(18, 21)
+$30 ==> 21
+
+jshell> Math.max(18, 11)
+$31 ==> 18
+
+
+jshell>  int i = 5;
+i ==> 5
+
+jshell> int j =
+   ...> 5;
+j ==> 5
+
+jshell> System.
+   ...> out.
+   ...> println(
+   ...> 5+2+3
+   ...> )
+10
+
+jshell> i=10; j=12;
+i ==> 10
+j ==> 12
+
+jshell> if(true)
+   ...> {
+   ...>     i=11;
+   ...>     i=12
+   ...> }
+|  Error:
+|  ';' expected
+|      i=12
+|          ^
+
+
+MODIFICADORES.
+
+jshell> System.out.printf("5*2=10 %d", 5*2).println()
+5*2=10 10
+
+jshell> System.out.printf("5*2=%d", 5*2).println()
+5*2=10
+
+jshell> System.out.printf("%d %d %d", 8, 5, 6*7).println()
+8 5 42
+jshell> System.out.printf("%d*%d=%d", 8, 5, 8*5).println()
+8*5=40
+ 

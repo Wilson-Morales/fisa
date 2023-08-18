@@ -1,0 +1,32 @@
+ejercicios
+jshell> 5/3
+$1 ==> 1
+
+jshell> 5.0/3.0
+$2 ==> 1.6666666666666667
+
+jshell> 5.0/2
+$3 ==> 2.5
+
+jshell> 5/2.0
+$4 ==> 2.5
+
+jshell> (5+2)*8
+$5 ==> 56
+
+jshell>
+
+
+jshell> System.out.println(5*8)
+40
+
+jshell> System.out.println("5*8 = 40")
+5*8 = 40
+
+jshell> System.out.println("3.0/2")
+3.0/2
+
+jshell> System.out.println(3.0/2)
+1.5
+
+jshell>

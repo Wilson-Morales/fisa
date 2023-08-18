@@ -1,0 +1,101 @@
+jshell> System.out.printf("%d+%d+%d=%d", 5, 6, 7, 5 + 6 + 7).println()
+5+6+7=18
+
+jshell> System.out.printf("%d+%d+%d", 5, 6, 7 ).println()
+5+6+7
+
+jshell> System.out.printf("%d+%d+%d", 5, 6, 7, 8).pintln()
+|  Error:
+|  cannot find symbol
+|    symbol:   method pintln()
+|  System.out.printf("%d+%d+%d", 5, 6, 7, 8).pintln()
+|  ^----------------------------------------------^
+
+jshell> System.out.printf("%d+%d+%d", 5, 6, 7, 8).println()
+5+6+7
+
+
+Modificador de cadena
+
+jshell> System.out.printf("Pintr %S", "Testing").println()
+Pintr TESTING
+
+MODIFICADOR DE PUNTO FLOTANTE / DECIMAL
+
+jshell> System.out.printf("%d+%d+%d", 5, 6, 7, 8).println()
+5+6+7
+
+jshell> System.out.printf("Pintr %S", "Testing").println()
+Pintr TESTING
+
+jshell> System.out.printf("%d + %d + %d", 7.1, 8.2, 6.4).println()
+|  Exception java.util.IllegalFormatConversionException: d != java.lang.Double
+|        at Formatter$FormatSpecifier.failConversion (Formatter.java:4510)
+|        at Formatter$FormatSpecifier.printInteger (Formatter.java:3055)
+|        at Formatter$FormatSpecifier.print (Formatter.java:3010)
+|        at Formatter.format (Formatter.java:2781)
+|        at PrintStream.implFormat (PrintStream.java:1367)
+|        at PrintStream.format (PrintStream.java:1346)
+|        at PrintStream.printf (PrintStream.java:1245)
+|        at (#52:1)
+
+jshell> System.out.printf("%f + %f+ %f, 7.1, 8.2, 6.4).println()
+|  Error:
+|  unclosed string literal
+|  System.out.printf("%f + %f+ %f, 7.1, 8.2, 6.4).println()
+|                    ^
+
+jshell> System.out.printf("%f + %f+ %f",7.1, 8.2, 6.4).println()
+7,100000 + 8,200000+ 6,400000
+
+
+
+jshell> int nuber =10
+nuber ==> 10
+
+jshell> int number = 10
+number ==> 10
+
+jshell> number = 11
+number ==> 11
+
+jshell> number = 12
+number ==> 12
+
+jshell> int i = 1
+i ==> 1
+
+jshell> System.out.printf("%d*%d=%d", 8, i, 8*i).println()
+8*1=8
+
+
+
+jshell> i=2
+i ==> 2
+
+jshell> System.out.printf("%d*%d=%d", 5, i, 5*i).println()
+5*2=10
+
+jshell> i=3
+i ==> 3
+
+jshell> System.out.printf("%d*%d=%d", 5, i, 5*i).println()
+5*3=15
+
+jshell> i=4
+i ==> 4
+
+jshell> System.out.printf("%d*%d=%d", 5, i, 5*i).println()
+5*4=20
+
+jshell> i=5
+i ==> 5
+
+jshell> System.out.printf("%d*%d=%d", 5, i, 5*i).println()
+5*5=25
+
+jshell> i=6
+i ==> 6
+
+jshell> System.out.printf("%d*%d=%d", 5, i, 5*i).println()
+5*6=30

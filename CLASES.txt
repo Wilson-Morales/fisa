@@ -1,0 +1,82 @@
+CLASAES
+
+NOTA: PARA EJECUTAR UN METODO DENTRO DE UNA CLASE, NECESITA OBJETOS
+O UTILIZAR UNA INSTACIA PARA ELLO.
+
+
+
+jshell> class Contry{
+   ...> }
+|  created class Contry
+
+
+INSTANCIAS / OBJETOS
+
+jshell> Contry India = new Contry()
+India ==> Contry@4d95d2a2
+
+jshell> Contry Filipinas = new Contry()
+Filipinas ==> Contry@3b088d51
+
+
+
+jshell> class Planet{
+   ...> }
+|  created class Planet
+
+jshell> Planet Tierra = new Planet()
+Tierra ==> Planet@6acdbdf5
+
+jshell> Planet Marte = new Planet()
+Marte ==> Planet@17579e0f
+
+jshell> Planet Jupiter = new Planet()
+Jupiter ==> Planet@3712b94
+
+jshell> Planet Neptuno = new Planet()
+Neptuno ==> Planet@33f88ab
+
+
+jshell> Tierra.girar()
+girando al sol
+
+jshell> Marte.girar()
+girando al sol
+
+jshell> Jupiter.girar()
+girando al sol
+
+jshell> Neptuno.girar()
+girando al sol
+
+
+
+jshell> class Countruy{
+   ...>     void viaje(){
+   ...>         System.out.println("Proximamente de viaje");
+   ...>     }
+   ...> }
+|  created class Countruy
+
+jshell> Countruy Ecuador = new Countruy()
+Ecuador ==> Countruy@34cd072c
+
+jshell> Countruy Peru = new Countruy()
+Peru ==> Countruy@5faeada1
+
+jshell> Countruy Argentina = new Countruy()
+Argentina ==> Countruy@ea1a8d5
+
+jshell> Ecuador.viaje()
+Proximamente de viaje
+
+jshell> Peru.viaje()
+Proximamente de viaje
+
+jshell> Argentina.viaje()
+Proximamente de viaje
+
+
+
+
+

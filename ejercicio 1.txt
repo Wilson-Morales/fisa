@@ -1,0 +1,11 @@
+¿Cuantos minutos tiene un día?
+
+¿Cuantos segundos tiene un día?
+
+jshell> 24*60
+$5 ==> 1440
+
+jshell> 24*60*60
+$6 ==> 86400
+
+jshell>
